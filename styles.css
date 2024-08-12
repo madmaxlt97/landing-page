@@ -1,0 +1,190 @@
+* {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.hero {
+    background-color: #1f2937;
+   
+}
+.header {
+    padding: 10px;
+    flex-direction: row;
+    height: 100px;
+}
+
+.header-logo {
+    align-content: center; /* vertical margin */
+    justify-content: flex-start; /* horizontal margin */
+    display: flex;
+    padding: 100 px;
+}
+.header-links {
+    color: azure;
+    display: flex;
+    justify-content: flex-end;
+    align-content: center;
+  
+}
+.link1,
+.link2,
+.link3 {
+    margin: 10px;
+    align-self: flex-start;
+    display: flex;
+    padding: 10px;
+    color: #E5E7EB;
+}
+.link3 {
+    background-color: aqua;
+    border-radius: 50px; /* rounded corners */
+    margin: 10px;
+    padding: 10px;
+    color: black;
+}
+.middle-block-container {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+.middle-block-text{
+    height: 200px;
+    width: 250px;
+}
+.title {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+.subtext {
+    font-size: 18px;
+    color: #E5E7EB;
+    align-content: flex-end;
+}
+.sign-up {
+    background-color: #3881f69a;
+    color: #f9faf8;
+    font-weight: 500;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+    font-size: larger;
+    border-radius: 10px;
+    border: 5px solid #1f2937;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.photo {
+    justify-content: right;
+    display: flex;
+    flex-direction: row;
+}
+.info {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 36px;
+    margin-top: 30px;
+    padding: 20px;
+}
+
+.images {
+    display: flex;
+    justify-content: space-around;
+    margin: 30px;
+
+}
+
+.full-img1,
+.full-img2,
+.full-img3,
+.full-img4 {
+    position: relative;
+    text-align: center;
+    color: black;
+}
+
+.img1-text,
+.img2-text,
+.img3-text,
+.img4-text {
+    position: relative;
+    bottom: 4px;
+}
+
+.quotebox {
+    background-color: #E5E7EB;
+    height: 200px;
+}
+.quote {
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    color: #1F2937;
+    margin: 40px;
+}
+.author {
+    font-size: 30px;
+    font-weight: bolder;
+    color: black;
+    text-align: right;
+}
+.sign-up1 {
+    background-color: #F9FAF8;
+    font-size: medium;
+    align-content: center;
+    justify-content: center;
+}
+.sign-up1-content {
+    max-width: 80%;
+    background-color: #3882F6;
+    border-radius: 8px;
+    padding: 20px;
+    color: #F9FAF8;
+    font-size: larger;
+    align-items: flex-start;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 20px;
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    flex-direction: column;
+}
+.buy {
+    font-size: large;
+    font-weight: bold;
+}
+.buy-subtext {
+    font-size: medium;
+    align-content: flex-end;
+}
+.sign-up-button {
+    flex-direction: row;
+    font-weight: 500;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+    font-size: larger;
+    border-radius: 10px;
+    border: 2px solid #1f2937;
+    background-color: #3881f69a;
+    border-color: #E5E7EB;
+    color: #f9faf8;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: 400px;
+}
+.copyright {
+    height: 100px;
+    font-size: medium;
+    background-color: burlywood;
+    text-align: center;
+    padding-top: 40px;
+    box-sizing: border-box;
+}
